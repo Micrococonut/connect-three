@@ -1,5 +1,3 @@
-import java.util.Random;
-
 // McIntyre, Lloyd
 // Project 3: Advanced
 // CS 110-3 FA 14
@@ -115,7 +113,6 @@ public class McIntyre3 extends ConnectThree {
 	 */
 	public class Tron extends AI {
 		final int DEPTH_MAX = 8;
-		Random rand = new Random();
 		int bestChoice = 1;
 		Player player;
 		Player opponent;

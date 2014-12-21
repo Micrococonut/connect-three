@@ -1,0 +1,44 @@
+.pane {
+	-fx-background-color: darkgray;
+}
+
+.cell-none, .cell-playerx, .cell-playero, .cell-hidden {
+	-fx-background-color: lightgray;
+	-fx-background-radius: 15;
+	-fx-alignment: center;
+	-fx-font-size: 100px;
+	-fx-font-family: Arial Bold;
+}
+
+.cell-playerx {
+	-fx-background-color: #ffe894;
+	-fx-text-fill: black;
+	-fx-effect: innershadow(gaussian, #eeb111, 15, 0.5, 0, 0);
+}
+
+.cell-playerx > .label {
+	-fx-text-fill: black;
+}
+
+.cell-playero {
+	-fx-background-color: #a0c4da;
+	-fx-text-fill: white;
+	-fx-effect: innershadow(gaussian, #00447c, 15, 0.5, 0, 0);
+}
+
+.cell-playero > .label {
+	-fx-text-fill: white;
+}
+
+.cell-mini {
+	-fx-font-size: 25px;
+}
+
+.cell-hidden {
+	-fx-background-color: transparent;
+	visibility: hidden;
+}
+
+.cell-fade {
+	-fx-opacity: 20%;
+}
